@@ -5,30 +5,30 @@ class BoardMember{
     this.training = training;
   }
 
-  veto{
+  veto(){
     return `No, I must disagree`;
   }
 
-  approve{
+  approve(){
     return `You can do that!`;
   }
 
-  doCharity{
+  doCharity(){
       return `I like to help people.`;
   }
 
-  releasePressStatement{
+  releasePressStatement(){
     return `You will see great things from Scuber.`;
   }
 
-  sayHi{
+  sayHi(){
     return `Hi, my name is ${name}. I am from ${homestate}, and I was trained in ${training}.`;
   }
 }
 
 
 class Ceo extends BoardMember{
-  hireEmployee {
+  hireEmployee(){
     return `Welcome aboard!`
   }
 }
